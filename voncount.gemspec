@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'voncountjs/version'
+require 'voncount/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "voncountjs"
-  spec.version       = Voncountjs::VERSION
+  spec.name          = "voncount"
+  spec.version       = Voncount::VERSION
   spec.authors       = ["Simon Jones"]
   spec.email         = ["spj3rd@googlemail.com"]
-  spec.description   = ""
-  spec.summary       = ""
-  spec.homepage      = ""
+  spec.description   = "Count characters like The Count"
+  spec.summary       = "Simple js-rails character counter."
+  spec.homepage      = "http://simonjones.guthub.com/voncount"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

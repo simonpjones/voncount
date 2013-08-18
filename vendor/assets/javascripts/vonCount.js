@@ -3,7 +3,7 @@
 
   initCounter = function($field, $counter) {
     var countCharacters, maxLength;
-    maxLength = $field.attr('maxlength') || 400;
+    maxLength = $field.attr('maxlength') || 255;
     countCharacters = function() {
       var len, value;
       value = $field.val();
