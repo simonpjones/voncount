@@ -1,7 +1,9 @@
 # Von Count
 
 Tackle characters with Von Count
-![Tackle characters with The Count](http://simonpjones.co.uk/images/the_count/the_count.jpg)
+
+![Count characters with The Count](http://1.bp.blogspot.com/_zCGbA5Pv0PI/TGj5YnGEDDI/AAAAAAAADD8/ipYKIgc7Jg0/s400/CountVonCount.jpg)
+
 A simple twitter-style character counter gem that includes form helpers for easy use.
 
 
