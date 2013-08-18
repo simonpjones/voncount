@@ -1,0 +1,3 @@
+.von-count-holder { position:relative; }
+
+.von-counter { position:absolute; right:30px; bottom:5px; color:#cccccc; }
