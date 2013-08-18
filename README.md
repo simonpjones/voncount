@@ -23,28 +23,28 @@ Add the following to your Stylesheet manifest file (application.cs):
 
 To include a character counter on a text field use whichever of the following you need:
 
-    = f.voncount_text_field :field_name, class: "class-names", maxlength: 120
+    = f.voncount_text_field :field_name, maxlength: 120
 
 or
   
-    = voncount_text_field_tag "field_name", "Value", class: "class-names", maxlength: 120
+    = voncount_text_field_tag "field_name", "Value", maxlength: 120
 
 or
   
-    = voncount_text_field "object_name", "field_name", class: "class-names", maxlength: 120
+    = voncount_text_field "object_name", "field_name", maxlength: 120
 
 
 To include a character counter on a text area use whichever of the following you need:
 
-    = f.voncount_text_area :field_name, class: "class-names", maxlength: 120
+    = f.voncount_text_area :field_name, maxlength: 120
 
 or
   
-    = voncount_text_area_tag "field_name", "Value", class: "class-names", maxlength: 120
+    = voncount_text_area_tag "field_name", "Value", maxlength: 120
 
 or
   
-    = voncount_text_area "object_name", "field_name", class: "class-names", maxlength: 120
+    = voncount_text_area "object_name", "field_name", maxlength: 120
 
 
 Default max character length is 255, this value is overridden by the maxlength option applied to the field
