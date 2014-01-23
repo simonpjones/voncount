@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["spj3rd@googlemail.com"]
   spec.description   = "Count characters like The Count"
   spec.summary       = "Simple js-rails character counter."
-  spec.homepage      = "http://simonjones.github.io/voncount"
+  spec.homepage      = "http://simonpjones.github.io/voncount"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
